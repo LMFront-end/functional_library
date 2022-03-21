@@ -1,6 +1,9 @@
 package com.example.bibliotecafuncional.application.service;
 
 import com.example.bibliotecafuncional.domain.dto.ResourceDTO;
+import com.example.bibliotecafuncional.domain.valueObject.Availability;
+import com.example.bibliotecafuncional.domain.valueObject.ThematicArea;
+import com.example.bibliotecafuncional.domain.valueObject.TypeOfResource;
 
 import java.util.List;
 
@@ -20,5 +23,28 @@ public interface ResourceServiceInterface {
     // delete Resource
     void deleteResource(String id);
 
+    // find By availability
+    List<ResourceDTO> findByAvailability(Availability availability);
+
+    // borrow resource
+    ResourceDTO borrowResource(String id);
+
+    // return resource
+    ResourceDTO returnResource(String id);
+
+    // recommend By ThematicArea
+    List<ResourceDTO> recommendThematicArea(ThematicArea thematicArea);
+
+    // recommend By TypeOfResource
+    List<ResourceDTO> recommendTypeOfResource(TypeOfResource typeOfResource);
+
+    // recommend by both (ThematicArea, TypeOfResource)
+    List<ResourceDTO> recommendThematicAreaAndTypeOfResource(ThematicArea thematicArea, TypeOfResource typeOfResource );
+
+    // find By Author
+    List<ResourceDTO> findByAuthor(String author);
+
+    // find by name
+    List<ResourceDTO> findByName(String name);
 
 }
