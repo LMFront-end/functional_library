@@ -14,6 +14,9 @@ public interface ResourceServiceInterface {
     // list Resource
     List<ResourceDTO> listResource();
 
+    // find by id
+    ResourceDTO findById(String id);
+
     // save Resource
     ResourceDTO saveResource(ResourceDTO resourceDTO);
 
@@ -22,6 +25,8 @@ public interface ResourceServiceInterface {
 
     // delete Resource
     void deleteResource(String id);
+
+    // other methods
 
     // find By availability
     List<ResourceDTO> findByAvailability(Availability availability);

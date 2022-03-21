@@ -1,5 +1,6 @@
 package com.example.bibliotecafuncional.application.service;
 
+import com.example.bibliotecafuncional.application.mappers.ResourceMapper;
 import com.example.bibliotecafuncional.domain.dto.ResourceDTO;
 import com.example.bibliotecafuncional.domain.repository.ResourceRepository;
 import com.example.bibliotecafuncional.domain.valueObject.Availability;
@@ -9,15 +10,29 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 @RequiredArgsConstructor
 @Service
 public class ResourceService implements ResourceServiceInterface {
 
-    private final ResourceRepository repository;
+    // repository
+    private final ResourceRepository resourceRepository;
+
+    // Mapper
+    private final ResourceMapper resourceMapper;
+
 
     @Override
     public List<ResourceDTO> listResource() {
+        return resourceRepository.findAll()
+                .stream()
+                .map(resourceMapper.mapToDTO())
+                .collect(Collectors.toList());
+    }
+
+    @Override
+    public ResourceDTO findById(String id) {
         return null;
     }
 
