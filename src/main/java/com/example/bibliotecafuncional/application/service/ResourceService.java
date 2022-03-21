@@ -23,7 +23,6 @@ public class ResourceService implements ResourceServiceInterface {
     // Mapper
     private final ResourceMapper resourceMapper;
 
-
     @Override
     public List<ResourceDTO> listResource() {
         return resourceRepository.findAll()
@@ -40,7 +39,9 @@ public class ResourceService implements ResourceServiceInterface {
 
     @Override
     public ResourceDTO saveResource(ResourceDTO resourceDTO) {
-        return null;
+        return resourceMapper.mapToDTO()
+                .apply(resourceRepository.save(resourceMapper.mapToCollection()
+                        .apply(resourceDTO)));
     }
 
     @Override

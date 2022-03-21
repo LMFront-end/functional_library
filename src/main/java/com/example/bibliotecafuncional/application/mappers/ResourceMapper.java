@@ -20,4 +20,17 @@ public class ResourceMapper {
         );
 
     }
+
+    public Function<ResourceDTO, Resource> mapToCollection(){
+
+        return resourceDTO -> new Resource(
+                resourceDTO.getId(),
+                resourceDTO.getName(),
+                resourceDTO.getAuthor(),
+                resourceDTO.getAvailability(),
+                resourceDTO.getLastBorrowed(),
+                resourceDTO.getThematicArea(),
+                resourceDTO.getTypeOfResource()
+        );
+    }
 }
