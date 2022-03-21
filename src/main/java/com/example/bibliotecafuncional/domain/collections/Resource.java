@@ -4,13 +4,14 @@ import com.example.bibliotecafuncional.domain.valueObject.Availability;
 import com.example.bibliotecafuncional.domain.valueObject.MyDate;
 import com.example.bibliotecafuncional.domain.valueObject.ThematicArea;
 import com.example.bibliotecafuncional.domain.valueObject.TypeOfResource;
+import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDate;
 
-@RequiredArgsConstructor
+@Data
 @Document(value = "resources")
 public class Resource {
 
@@ -23,5 +24,5 @@ public class Resource {
     private final LocalDate lastBorrowed;
     private final ThematicArea thematicArea;
     private final TypeOfResource typeOfResource;
-    
+
 }
