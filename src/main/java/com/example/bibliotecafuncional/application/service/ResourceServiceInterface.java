@@ -6,6 +6,7 @@ import com.example.bibliotecafuncional.domain.valueObject.ThematicArea;
 import com.example.bibliotecafuncional.domain.valueObject.TypeOfResource;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface ResourceServiceInterface {
 
@@ -15,7 +16,7 @@ public interface ResourceServiceInterface {
     List<ResourceDTO> listResource();
 
     // find by id
-    ResourceDTO findById(String id);
+    Optional<ResourceDTO> findById(String id);
 
     // save Resource
     ResourceDTO saveResource(ResourceDTO resourceDTO);

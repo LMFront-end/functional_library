@@ -1,7 +1,6 @@
 package com.example.bibliotecafuncional.domain.repository;
 
 import com.example.bibliotecafuncional.domain.collections.Resource;
-import com.example.bibliotecafuncional.domain.dto.ResourceDTO;
 import com.example.bibliotecafuncional.domain.valueObject.Availability;
 import com.example.bibliotecafuncional.domain.valueObject.ThematicArea;
 import com.example.bibliotecafuncional.domain.valueObject.TypeOfResource;

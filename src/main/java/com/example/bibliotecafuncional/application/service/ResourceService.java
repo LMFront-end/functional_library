@@ -10,6 +10,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @RequiredArgsConstructor
@@ -32,8 +33,9 @@ public class ResourceService implements ResourceServiceInterface {
     }
 
     @Override
-    public ResourceDTO findById(String id) {
-        return null;
+    public Optional<ResourceDTO> findById(String id) {
+        return resourceRepository.findById(id)
+                .map(resourceMapper.mapToDTO());
     }
 
     @Override
