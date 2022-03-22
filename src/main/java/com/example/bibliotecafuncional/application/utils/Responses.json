@@ -1,0 +1,551 @@
+[
+  {
+    "id": "62396c211a361d392b993163",
+    "name": "New Decade new style",
+    "author": "Vogue",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "STYLE",
+    "typeOfResource": "MAGAZINES"
+  },
+  {
+    "id": "62396c211a361d392b993164",
+    "name": "43 Looks",
+    "author": "Vogue",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "STYLE",
+    "typeOfResource": "MAGAZINES"
+  },
+  {
+    "id": "62396c211a361d392b993165",
+    "name": "The big fashion issue",
+    "author": "ELLE",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "STYLE",
+    "typeOfResource": "MAGAZINES"
+  },
+  {
+    "id": "62396c211a361d392b993166",
+    "name": "Harry Potter y la piedra Filosofal",
+    "author": "J.K Rowling",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "FANTASY",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b993167",
+    "name": "Harry Potter y la camara secreta",
+    "author": "J.K Rowling",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "FANTASY",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b993168",
+    "name": "Cayendo por Rebeca",
+    "author": "Zela B.",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "ROMANCE",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b993169",
+    "name": "Abracadabra y patas de cabra",
+    "author": "Brian Gagwilde",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "FANTASY",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b99316a",
+    "name": "Alquimia",
+    "author": "Argo Pyrites",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "SCIENCE",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b99316b",
+    "name": "Necromancia",
+    "author": "Bertrand",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "CRITICAL_READING",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b99316c",
+    "name": "El futuro de nuestra mente",
+    "author": "MICHO KAKU",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "SCIENCE",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b99316d",
+    "name": "Mi vida",
+    "author": "Stephen Hawking",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "SCIENCE",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b99316e",
+    "name": "El bonono y los diez mandamientos",
+    "author": "Frans de Waal",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "SCIENCE",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b99316f",
+    "name": "El origen de las especies",
+    "author": "Charles Darwin",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "NATURE",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b993170",
+    "name": "Manual practico de Microbiologia",
+    "author": "Sandra Carlina & Clara Giraldo",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "NATURE",
+    "typeOfResource": "FILES"
+  },
+  {
+    "id": "62396c211a361d392b993171",
+    "name": "En busca del origen",
+    "author": "Felipe Guhl",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "NATURE",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b993172",
+    "name": "Por qué dependemos de la biodiversidad",
+    "author": "Juan Armando Sanchez",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "NATURE",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b993173",
+    "name": "Nada",
+    "author": "Carmen Laforet",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "HISTORY",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b993174",
+    "name": "Los miserables",
+    "author": "Victor Hugo",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "HISTORY",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b993175",
+    "name": "Manual de matematica preuniversitaria",
+    "author": "Marilina Carena",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "MATHEMATICS",
+    "typeOfResource": "FILES"
+  },
+  {
+    "id": "62396c211a361d392b993176",
+    "name": "Introduccion a la matematica",
+    "author": "Universidad Catolica de cordoba",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "MATHEMATICS",
+    "typeOfResource": "FILES"
+  },
+  {
+    "id": "62396c211a361d392b993177",
+    "name": "Aspectos teoricos de los solitones hilomorfos",
+    "author": "Juan Pablo O'brien",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "MATHEMATICS",
+    "typeOfResource": "FILES"
+  },
+  {
+    "id": "62396c211a361d392b993178",
+    "name": "Diccionario Ilustrado de conceptos matematicos",
+    "author": "Efraín Soto",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "MATHEMATICS",
+    "typeOfResource": "FILES"
+  },
+  {
+    "id": "62396c211a361d392b993179",
+    "name": "Introducción a la matematica",
+    "author": "Universidad Católica de cordoba",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "MATHEMATICS",
+    "typeOfResource": "FILES"
+  },
+  {
+    "id": "62396c211a361d392b99317a",
+    "name": "La republica de Platón",
+    "author": "Manuel Fernandez",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "PHILOSOPHY",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b99317b",
+    "name": "Sobre la felicidad",
+    "author": "Juan Azagra",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "PHILOSOPHY",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b99317c",
+    "name": "Las moradas de santa teresa de Jesús",
+    "author": "Amazon Media",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "PHILOSOPHY",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b99317d",
+    "name": "El discurso del método",
+    "author": "René descartes",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "PHILOSOPHY",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b99317e",
+    "name": "Etica mostrada segun el orden geometrico",
+    "author": "Baruj Espinosa",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "PHILOSOPHY",
+    "typeOfResource": "DVD"
+  },
+  {
+    "id": "62396c211a361d392b99317f",
+    "name": "Critica de la razón pura",
+    "author": "Immanuel Kant",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "PHILOSOPHY",
+    "typeOfResource": "DVD"
+  },
+  {
+    "id": "62396c211a361d392b993180",
+    "name": "Funciones comunicativas y gramatica",
+    "author": "Leonar Hernandez",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "ENGLISH",
+    "typeOfResource": "FILES"
+  },
+  {
+    "id": "62396c211a361d392b993181",
+    "name": "Manual básico para aprender Ingles",
+    "author": "Omar All Caldela",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "ENGLISH",
+    "typeOfResource": "FILES"
+  },
+  {
+    "id": "62396c211a361d392b993182",
+    "name": "Guia de ingles",
+    "author": "office of Migrant",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "ENGLISH",
+    "typeOfResource": "FILES"
+  },
+  {
+    "id": "62396c211a361d392b993183",
+    "name": "Learning English",
+    "author": "Dominio publico",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "ENGLISH",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b993184",
+    "name": "Gramatica basica",
+    "author": "Patricia Robinson",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "ENGLISH",
+    "typeOfResource": "FILES"
+  },
+  {
+    "id": "62396c211a361d392b993185",
+    "name": "Guía de gramatica inglesa",
+    "author": "Edwin Fallahi & Deborah Robiglio",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "ENGLISH",
+    "typeOfResource": "FILES"
+  },
+  {
+    "id": "62396c211a361d392b993186",
+    "name": "Ingles practico",
+    "author": "Jan & R.Ollua",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "ENGLISH",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b993187",
+    "name": "Problemas de greometria",
+    "author": "Ubaldo Usunariz",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "GEOMETRY",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b993188",
+    "name": "La enseñanza de la geometria",
+    "author": "Olga leticia López",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "GEOMETRY",
+    "typeOfResource": "FILES"
+  },
+  {
+    "id": "62396c211a361d392b993189",
+    "name": "Geometria para maestros",
+    "author": "Juan D. Godino",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "GEOMETRY",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b99318a",
+    "name": "Hola Mundo",
+    "author": "Dominio publico",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "TECHNOLOGY",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b99318b",
+    "name": "Orgullo y prejuicio",
+    "author": "Jane Austen",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "ROMANCE",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b99318c",
+    "name": "El ruiseñor",
+    "author": "Kristin Hannah",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "ROMANCE",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b99318d",
+    "name": "Edenbrooke",
+    "author": "Julianne",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "ROMANCE",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b99318e",
+    "name": "Tu y yo, invencibles",
+    "author": "Alice Kellen",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "ROMANCE",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b99318f",
+    "name": "El jinete de bronce",
+    "author": "Pauline simons",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "ROMANCE",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b993190",
+    "name": "Manual de la bruja Moderna",
+    "author": "Montse Osuna",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "WITCHCRAFT",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b993191",
+    "name": "Brujeria psiquica",
+    "author": "Mat Auryn",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "WITCHCRAFT",
+    "typeOfResource": "FILES"
+  },
+  {
+    "id": "62396c211a361d392b993192",
+    "name": "El grimorio absoluto",
+    "author": "Lidia Pradas",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "WITCHCRAFT",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "id": "62396c211a361d392b993193",
+    "name": "Libro de las confusiones",
+    "author": "Peter Melkovian",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "WITCHCRAFT",
+    "typeOfResource": "FILES"
+  },
+  {
+    "id": "62396c211a361d392b993194",
+    "name": "Ay equis",
+    "author": "Lina Maria",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "STYLE",
+    "typeOfResource": "FILES"
+  },
+  {
+    "id": "62396c211a361d392b993195",
+    "name": "El resplandor",
+    "author": "S. king",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "HORROR",
+    "typeOfResource": "DVD"
+  },
+  {
+    "id": "62396c211a361d392b993196",
+    "name": "Halloween",
+    "author": "John Carpenter",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "HORROR",
+    "typeOfResource": "DVD"
+  },
+  {
+    "id": "62396c211a361d392b993197",
+    "name": "Psicosis",
+    "author": "Alfred Hitchock",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "HORROR",
+    "typeOfResource": "DVD"
+  },
+  {
+    "id": "62396c211a361d392b993198",
+    "name": "La matanza de texas",
+    "author": "Tobe Hooper",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "HORROR",
+    "typeOfResource": "DVD"
+  },
+  {
+    "id": "62396c211a361d392b993199",
+    "name": "Arroz con leche",
+    "author": "ABC rondas",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "FABLES",
+    "typeOfResource": "CHILDREN_ROUNDS"
+  },
+  {
+    "id": "62396c211a361d392b99319a",
+    "name": "Limbo Pablo",
+    "author": "Los Backyardigans",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "FABLES",
+    "typeOfResource": "CHILDREN_ROUNDS"
+  },
+  {
+    "id": "62396c211a361d392b99319b",
+    "name": "Come little children",
+    "author": "The witch abracadabra",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "FABLES",
+    "typeOfResource": "CHILDREN_ROUNDS"
+  },
+  {
+    "id": "62396c211a361d392b99319c",
+    "name": "Pinki dinki doo",
+    "author": "Pinki",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "SERIAL_KILLERS",
+    "typeOfResource": "CHILDREN_ROUNDS"
+  },
+  {
+    "id": "62396c211a361d392b99319d",
+    "name": "El coleccionista de huesos",
+    "author": "Lincoln Rhyme",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "SERIAL_KILLERS",
+    "typeOfResource": "DVD"
+  },
+  {
+    "id": "62396c211a361d392b99319e",
+    "name": "El poeta",
+    "author": "Jack McEvoy",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "SERIAL_KILLERS",
+    "typeOfResource": "DVD"
+  },
+  {
+    "id": "62396c211a361d392b99319f",
+    "name": "Las sirenas cantando",
+    "author": "Jordan Mysteries",
+    "availability": "AVAILABLE",
+    "lastBorrowed": null,
+    "thematicArea": "SERIAL_KILLERS",
+    "typeOfResource": "DVD"
+  }
+]
