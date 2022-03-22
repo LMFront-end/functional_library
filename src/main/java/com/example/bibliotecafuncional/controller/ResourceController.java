@@ -4,6 +4,7 @@ import com.example.bibliotecafuncional.application.service.ResourceService;
 import com.example.bibliotecafuncional.domain.dto.ResourceDTO;
 import com.example.bibliotecafuncional.domain.valueObject.Availability;
 import com.example.bibliotecafuncional.domain.valueObject.ThematicArea;
+import com.example.bibliotecafuncional.domain.valueObject.TypeOfResource;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -55,5 +56,28 @@ public class ResourceController {
     public ResponseEntity<List<ResourceDTO>> recommendThematicArea(@RequestParam ThematicArea thematicArea){
         return new ResponseEntity<>(resourceService.recommendThematicArea(thematicArea), HttpStatus.OK);
     }
-    
+
+    // recommend By TypeOfResource
+    @GetMapping("/findByTypeOfResource")
+    public ResponseEntity<List<ResourceDTO>>recommendTypeOfResource(@RequestParam TypeOfResource typeOfResource){
+        return new ResponseEntity<>(resourceService.recommendTypeOfResource(typeOfResource), HttpStatus.OK);
+    }
+
+    // recommend by both (ThematicArea, TypeOfResource)
+    @GetMapping("/findByThematicAndTypeOfResource")
+    public ResponseEntity<List<ResourceDTO>> recommendThematicAreaAndTypeOfResource(@RequestParam TypeOfResource typeOfResource, @RequestParam ThematicArea thematicArea){
+        return new ResponseEntity<>(resourceService.recommendThematicAreaAndTypeOfResource(thematicArea, typeOfResource), HttpStatus.OK);
+    }
+
+    // find By Author
+    @GetMapping("/findByAuthor")
+    public ResponseEntity<List<ResourceDTO>>findByAuthor(@RequestParam String author){
+        return new ResponseEntity<>(resourceService.findByAuthor(author), HttpStatus.OK);
+    }
+
+    // find by name
+    @GetMapping("/findByName")
+    public ResponseEntity<List<ResourceDTO>>findByName(@RequestParam String name){
+        return new ResponseEntity<>(resourceService.findByName(name), HttpStatus.OK);
+    }
 }
