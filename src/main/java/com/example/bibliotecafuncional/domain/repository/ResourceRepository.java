@@ -12,6 +12,7 @@ import java.util.List;
 @Repository
 public interface ResourceRepository extends MongoRepository<Resource, String> {
 
+
     /* OTHER METHODS */
 
     // find By availability

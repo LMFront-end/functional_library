@@ -2,9 +2,12 @@ package com.example.bibliotecafuncional.application.mappers;
 
 import com.example.bibliotecafuncional.domain.collections.Resource;
 import com.example.bibliotecafuncional.domain.dto.ResourceDTO;
+import com.example.bibliotecafuncional.domain.valueObject.Availability;
+import org.springframework.stereotype.Component;
 
 import java.util.function.Function;
 
+@Component
 public class ResourceMapper {
 
     public Function<Resource, ResourceDTO> mapToDTO(){
@@ -29,6 +32,19 @@ public class ResourceMapper {
                 resourceDTO.getAuthor(),
                 resourceDTO.getAvailability(),
                 resourceDTO.getLastBorrowed(),
+                resourceDTO.getThematicArea(),
+                resourceDTO.getTypeOfResource()
+        );
+    }
+
+    public Function<ResourceDTO, Resource> mapToNewCollection(){
+
+        return resourceDTO -> new Resource(
+                resourceDTO.getId(),
+                resourceDTO.getName(),
+                resourceDTO.getAuthor(),
+                Availability.AVAILABLE,
+                null,
                 resourceDTO.getThematicArea(),
                 resourceDTO.getTypeOfResource()
         );

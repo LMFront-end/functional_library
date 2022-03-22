@@ -40,7 +40,7 @@ public class ResourceService implements ResourceServiceInterface {
     @Override
     public ResourceDTO saveResource(ResourceDTO resourceDTO) {
         return resourceMapper.mapToDTO()
-                .apply(resourceRepository.save(resourceMapper.mapToCollection()
+                .apply(resourceRepository.save(resourceMapper.mapToNewCollection()
                         .apply(resourceDTO)));
     }
 
@@ -50,9 +50,7 @@ public class ResourceService implements ResourceServiceInterface {
     }
 
     @Override
-    public void deleteResource(String id) {
-
-    }
+    public void deleteResource(String id) {}
 
     @Override
     public List<ResourceDTO> findByAvailability(Availability availability) {
