@@ -47,25 +47,25 @@ public class ResourceController {
 
     // find By availability
     @GetMapping("/findByAvailability")
-    public ResponseEntity<List<ResourceDTO>> findByAvailability(@RequestParam Availability availability){
+    public ResponseEntity<List<ResourceDTO>> findByAvailability(@RequestParam(name="aval") Availability availability){
         return new ResponseEntity<>(resourceService.findByAvailability(availability), HttpStatus.OK);
     }
 
     // recommend By ThematicArea
     @GetMapping("/findByThematicArea")
-    public ResponseEntity<List<ResourceDTO>> recommendThematicArea(@RequestParam ThematicArea thematicArea){
+    public ResponseEntity<List<ResourceDTO>> recommendThematicArea(@RequestParam(name="thema") ThematicArea thematicArea){
         return new ResponseEntity<>(resourceService.recommendThematicArea(thematicArea), HttpStatus.OK);
     }
 
     // recommend By TypeOfResource
     @GetMapping("/findByTypeOfResource")
-    public ResponseEntity<List<ResourceDTO>>recommendTypeOfResource(@RequestParam TypeOfResource typeOfResource){
+    public ResponseEntity<List<ResourceDTO>>recommendTypeOfResource(@RequestParam(name="type") TypeOfResource typeOfResource){
         return new ResponseEntity<>(resourceService.recommendTypeOfResource(typeOfResource), HttpStatus.OK);
     }
 
     // recommend by both (ThematicArea, TypeOfResource)
     @GetMapping("/findByThematicAndTypeOfResource")
-    public ResponseEntity<List<ResourceDTO>> recommendThematicAreaAndTypeOfResource(@RequestParam TypeOfResource typeOfResource, @RequestParam ThematicArea thematicArea){
+    public ResponseEntity<List<ResourceDTO>> recommendThematicAreaAndTypeOfResource(@RequestParam(name="typeOf") TypeOfResource typeOfResource, @RequestParam(name="themat") ThematicArea thematicArea){
         return new ResponseEntity<>(resourceService.recommendThematicAreaAndTypeOfResource(thematicArea, typeOfResource), HttpStatus.OK);
     }
 
