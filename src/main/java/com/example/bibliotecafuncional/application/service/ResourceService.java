@@ -56,7 +56,10 @@ public class ResourceService implements ResourceServiceInterface {
 
     @Override
     public List<ResourceDTO> findByAvailability(Availability availability) {
-        return null;
+        return resourceRepository.findByAvailability(availability)
+                .stream()
+                .map(resourceMapper.mapToDTO())
+                .collect(Collectors.toList());
     }
 
     @Override
@@ -71,26 +74,42 @@ public class ResourceService implements ResourceServiceInterface {
 
     @Override
     public List<ResourceDTO> recommendThematicArea(ThematicArea thematicArea) {
-        return null;
+        return resourceRepository.findAllByThematicAreaOrderByName(thematicArea)
+                .stream()
+                .map(resourceMapper.mapToDTO())
+                .collect(Collectors.toList());
     }
 
     @Override
     public List<ResourceDTO> recommendTypeOfResource(TypeOfResource typeOfResource) {
-        return null;
+        return resourceRepository.findAllByTypeOfResourceOrderByName(typeOfResource)
+                .stream()
+                .map(resourceMapper.mapToDTO())
+                .collect(Collectors.toList());
+
     }
 
     @Override
     public List<ResourceDTO> recommendThematicAreaAndTypeOfResource(ThematicArea thematicArea, TypeOfResource typeOfResource) {
-        return null;
+        return resourceRepository.findAllByThematicAreaAndTypeOfResourceOrderByName(thematicArea, typeOfResource)
+                .stream()
+                .map(resourceMapper.mapToDTO())
+                .collect(Collectors.toList());
     }
 
     @Override
     public List<ResourceDTO> findByAuthor(String author) {
-        return null;
+        return resourceRepository.findAllByAuthorContainingIgnoreCaseOrderByName(author)
+                .stream()
+                .map(resourceMapper.mapToDTO())
+                .collect(Collectors.toList());
     }
 
     @Override
     public List<ResourceDTO> findByName(String name) {
-        return null;
+        return resourceRepository.findAllByNameContainingIgnoreCaseOrderByName(name)
+                .stream()
+                .map(resourceMapper.mapToDTO())
+                .collect(Collectors.toList());
     }
 }

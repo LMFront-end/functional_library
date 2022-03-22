@@ -2,6 +2,7 @@ package com.example.bibliotecafuncional.controller;
 
 import com.example.bibliotecafuncional.application.service.ResourceService;
 import com.example.bibliotecafuncional.domain.dto.ResourceDTO;
+import com.example.bibliotecafuncional.domain.valueObject.Availability;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -30,15 +31,21 @@ public class ResourceController {
     }
 
     // find by id
-    @GetMapping("/findById/{id}")
-    public ResponseEntity<Optional<ResourceDTO>> findById(@PathVariable String id){
+    @GetMapping("/findById")
+    public ResponseEntity<Optional<ResourceDTO>> findById(@RequestParam String id){
         return new ResponseEntity<>(resourceService.findById(id), HttpStatus.OK);
     }
 
     // delete Resource
-    @DeleteMapping("/deleteResourceById/{id}")
-    public ResponseEntity<HttpStatus> deleteResource(@PathVariable String id){
+    @DeleteMapping("/deleteResourceById")
+    public ResponseEntity<HttpStatus> deleteResource(@RequestParam String id){
         resourceService.deleteResource(id);
         return new ResponseEntity<>(HttpStatus.OK);
+    }
+
+    // find By availability
+    @GetMapping("/findByAvailability")
+    public ResponseEntity<List<ResourceDTO>> findByAvailability(@RequestParam Availability availability){
+        return new ResponseEntity<>(resourceService.findByAvailability(availability), HttpStatus.OK);
     }
 }
