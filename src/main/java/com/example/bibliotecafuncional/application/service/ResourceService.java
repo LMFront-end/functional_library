@@ -1,8 +1,7 @@
 package com.example.bibliotecafuncional.application.service;
 
 import com.example.bibliotecafuncional.application.mappers.ResourceMapper;
-import com.example.bibliotecafuncional.application.utils.Message;
-import com.example.bibliotecafuncional.domain.collections.Resource;
+import com.example.bibliotecafuncional.domain.utils.Message;
 import com.example.bibliotecafuncional.domain.dto.ResourceDTO;
 import com.example.bibliotecafuncional.domain.repository.ResourceRepository;
 import com.example.bibliotecafuncional.domain.valueObject.Availability;
@@ -11,7 +10,6 @@ import com.example.bibliotecafuncional.domain.valueObject.TypeOfResource;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;

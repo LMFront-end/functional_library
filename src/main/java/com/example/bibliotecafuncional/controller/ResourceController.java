@@ -1,7 +1,6 @@
 package com.example.bibliotecafuncional.controller;
 
 import com.example.bibliotecafuncional.application.service.ResourceService;
-import com.example.bibliotecafuncional.domain.collections.Resource;
 import com.example.bibliotecafuncional.domain.dto.ResourceDTO;
 import com.example.bibliotecafuncional.domain.valueObject.Availability;
 import com.example.bibliotecafuncional.domain.valueObject.ThematicArea;
@@ -50,8 +49,8 @@ public class ResourceController {
     }
 
     // update Resource
-    // localhost:8080/api/resource/updateResorce
-    @PutMapping("/updateResorce")
+    // localhost:8080/api/resource/updateResource
+    @PutMapping("/updateResource")
     public ResponseEntity<ResourceDTO> updateResource(@RequestBody ResourceDTO resourceDTO ){
         return new ResponseEntity<>(resourceService.updateResource(resourceDTO), HttpStatus.ACCEPTED);
     }

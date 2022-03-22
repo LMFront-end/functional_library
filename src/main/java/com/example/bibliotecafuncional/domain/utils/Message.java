@@ -1,4 +1,4 @@
-package com.example.bibliotecafuncional.application.utils;
+package com.example.bibliotecafuncional.domain.utils;
 
 public class Message {
 
