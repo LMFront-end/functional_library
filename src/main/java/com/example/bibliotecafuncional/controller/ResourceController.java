@@ -78,6 +78,13 @@ public class ResourceController {
         return new ResponseEntity<>(resourceService.borrowResource(id), HttpStatus.ACCEPTED );
     }
 
+    // return resource
+    // localhost:8080/api/resource/returnResource?ret={}
+    @PutMapping("/returnResource")
+    public ResponseEntity<String> returnResource(@RequestParam(name="ret") String id){
+        return new ResponseEntity<>(resourceService.returnResource(id), HttpStatus.ACCEPTED );
+    }
+
     // recommend By ThematicArea
     // localhost:8080/api/resource/findByThematicArea?thema={}
     @GetMapping("/findByThematicArea")

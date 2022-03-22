@@ -96,7 +96,12 @@ public class ResourceService implements ResourceServiceInterface {
     // return resource
     @Override
     public String returnResource(String id) {
-        return null;
+
+        return resourceRepository.findByIdAndAvailability(id, Availability.UNAVAILABLE)
+                .map(resourceMapper.mapToDTOWhenReturn())
+                .map(resourceDTO -> resourceRepository.save(resourceMapper.mapToCollection().apply(resourceDTO)))
+                .map(resource -> Message.BORROWED_SUCCESSFULLY)
+                .orElse(Message.RESOURCE_NOT_FOUND_AVAILABLE);
     }
 
     // recommend By ThematicArea
