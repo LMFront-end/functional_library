@@ -1,0 +1,369 @@
+[
+  {
+    "name": "New Decade new style",
+    "author": "Vogue",
+    "thematicArea": "MAGAZINES",
+    "typeOfResource": "STYLE"
+  },
+  {
+    "name": "43 Looks",
+    "author": "Vogue",
+    "thematicArea": "MAGAZINES",
+    "typeOfResource": "STYLE"
+  },
+  {
+    "name": "The big fashion issue",
+    "author": "ELLE",
+    "thematicArea": "MAGAZINES",
+    "typeOfResource": "STYLE"
+  },
+  {
+    "name": "Harry Potter y la piedra Filosofal",
+    "author": "J.K Rowling",
+    "thematicArea": "BOOKS",
+    "typeOfResource": "FANTASY"
+  },
+  {
+    "name": "Harry Potter y la camara secreta",
+    "author": "J.K Rowling",
+    "thematicArea": "BOOKS",
+    "typeOfResource": "FANTASY"
+  },
+  {
+    "name": "Cayendo por Rebeca",
+    "author": "Zela B.",
+    "thematicArea": "ROMANCE",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "Abracadabra y patas de cabra",
+    "author": "Brian Gagwilde",
+    "thematicArea": "FANTASY",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "Alquimia",
+    "author": "Argo Pyrites",
+    "thematicArea": "SCIENCE",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "Necromancia",
+    "author": "Bertrand",
+    "thematicArea": "CRITICAL_READING",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "El futuro de nuestra mente",
+    "author": "MICHO KAKU",
+    "thematicArea": "SCIENCE",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "Mi vida",
+    "author": "Stephen Hawking",
+    "thematicArea": "SCIENCE",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "El bonono y los diez mandamientos",
+    "author": "Frans de Waal",
+    "thematicArea": "BOOKS",
+    "typeOfResource": "SCIENCE"
+  },
+  {
+    "name": "El origen de las especies",
+    "author": "Charles Darwin",
+    "thematicArea": "NATURE",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "Manual practico de Microbiologia",
+    "author": "Sandra Carlina & Clara Giraldo",
+    "thematicArea": "NATURE",
+    "typeOfResource": "FILES"
+  },
+  {
+    "name": "En busca del origen",
+    "author": "Felipe Guhl",
+    "thematicArea": "NATURE",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "Por qué dependemos de la biodiversidad",
+    "author": "Juan Armando Sanchez",
+    "thematicArea": "NATURE",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "Nada",
+    "author": "Carmen Laforet",
+    "thematicArea": "HISTORY",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "Los miserables",
+    "author": "Victor Hugo",
+    "thematicArea": "HISTORY",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "Manual de matematica preuniversitaria",
+    "author": "Marilina Carena",
+    "thematicArea": "MATHEMATICS",
+    "typeOfResource": "FILES"
+  },
+  {
+    "name": "Introduccion a la matematica",
+    "author": "Universidad Catolica de cordoba",
+    "thematicArea": "MATHEMATICS",
+    "typeOfResource": "FILES"
+  },
+  {
+    "name": "Aspectos teoricos de los solitones hilomorfos",
+    "author": "Juan Pablo O'brien",
+    "thematicArea": "MATHEMATICS",
+    "typeOfResource": "FILES"
+  },
+  {
+    "name": "Diccionario Ilustrado de conceptos matematicos",
+    "author": "Efraín Soto",
+    "thematicArea": "MATHEMATICS",
+    "typeOfResource": "FILES"
+  },
+  {
+    "name": "Introducción a la matematica",
+    "author": "Universidad Católica de cordoba",
+    "thematicArea": "MATHEMATICS",
+    "typeOfResource": "FILES"
+  },
+  {
+    "name": "La republica de Platón",
+    "author": "Manuel Fernandez",
+    "thematicArea": "PHILOSOPHY",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "Sobre la felicidad",
+    "author": "Juan Azagra",
+    "thematicArea": "PHILOSOPHY",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "Las moradas de santa teresa de Jesús",
+    "author": "Amazon Media",
+    "thematicArea": "PHILOSOPHY",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "El discurso del método",
+    "author": "René descartes",
+    "thematicArea": "PHILOSOPHY",
+    "typeOfResource": ""
+  },
+  {
+    "name": "Etica mostrada segun el orden geometrico",
+    "author": "Baruj Espinosa",
+    "thematicArea": "PHILOSOPHY",
+    "typeOfResource": "DVD"
+  },
+  {
+    "name": "Critica de la razón pura",
+    "author": "Immanuel Kant",
+    "thematicArea": "PHILOSOPHY",
+    "typeOfResource": "DVD"
+  },
+  {
+    "name": "Funciones comunicativas y gramatica",
+    "author": "Leonar Hernandez",
+    "thematicArea": "ENGLISH",
+    "typeOfResource": "FILES"
+  },
+  {
+    "name": "Manual básico para aprender Ingles",
+    "author": "Omar All Caldela",
+    "thematicArea": "ENGLISH",
+    "typeOfResource": "FILES"
+  },
+  {
+    "name": "Guia de ingles",
+    "author": "office of Migrant",
+    "thematicArea": "ENGLISH",
+    "typeOfResource": "FILES"
+  },
+  {
+    "name": "Learning English",
+    "author": "Dominio publico",
+    "thematicArea": "ENGLISH",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "Gramatica basica",
+    "author": "Patricia Robinson",
+    "thematicArea": "ENGLISH",
+    "typeOfResource": "FILES"
+  },
+  {
+    "name": "Guía de gramatica inglesa",
+    "author": "Edwin Fallahi & Deborah Robiglio",
+    "thematicArea": "ENGLISH",
+    "typeOfResource": "FILES"
+  },
+  {
+    "name": "Ingles practico",
+    "author": "Jan & R.Ollua",
+    "thematicArea": "ENGLISH",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "Problemas de greometria",
+    "author": "Ubaldo Usunariz",
+    "thematicArea": "GEOMETRY",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "La enseñanza de la geometria",
+    "author": "Olga leticia López",
+    "thematicArea": "GEOMETRY",
+    "typeOfResource": "FILES"
+  },
+  {
+    "name": "Geometria para maestros",
+    "author": "Juan D. Godino",
+    "thematicArea": "GEOMETRY",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "Hola Mundo",
+    "author": "Dominio publico",
+    "thematicArea": "TECHNOLOGY",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "Orgullo y prejuicio",
+    "author": "Jane Austen",
+    "thematicArea": "ROMANCE",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "El ruiseñor",
+    "author": "Kristin Hannah",
+    "thematicArea": "ROMANCE",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "Edenbrooke",
+    "author": "Julianne",
+    "thematicArea": "ROMANCE",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "Tu y yo, invencibles",
+    "author": "Alice Kellen",
+    "thematicArea": "ROMANCE",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "El jinete de bronce",
+    "author": "Pauline simons",
+    "thematicArea": "ROMANCE",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "Manual de la bruja Moderna",
+    "author": "Montse Osuna",
+    "thematicArea": "WITCHCRAFT",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "Brujeria psiquica",
+    "author": "Mat Auryn",
+    "thematicArea": "WITCHCRAFT",
+    "typeOfResource": "FILES"
+  },
+  {
+    "name": "El grimorio absoluto",
+    "author": "Lidia Pradas",
+    "thematicArea": "WITCHCRAFT",
+    "typeOfResource": "BOOKS"
+  },
+  {
+    "name": "Libro de las confusiones",
+    "author": "Peter Melkovian",
+    "thematicArea": "WITCHCRAFT",
+    "typeOfResource": "FILES"
+  },
+  {
+    "name": "Ay equis",
+    "author": "Lina Maria",
+    "thematicArea": "STYLE",
+    "typeOfResource": "FILES"
+  },
+  {
+    "name": "El resplandor",
+    "author": "S. king",
+    "thematicArea": "HORROR",
+    "typeOfResource": "DVD"
+  },
+  {
+    "name": "Halloween",
+    "author": "John Carpenter",
+    "thematicArea": "HORROR",
+    "typeOfResource": "DVD"
+  },
+  {
+    "name": "Psicosis",
+    "author": "Alfred Hitchock",
+    "thematicArea": "HORROR",
+    "typeOfResource": "DVD"
+  },
+  {
+    "name": "La matanza de texas",
+    "author": "Tobe Hooper",
+    "thematicArea": "HORROR",
+    "typeOfResource": "DVD"
+  },
+  {
+    "name": "Arroz con leche",
+    "author": "ABC rondas",
+    "thematicArea": "FABLES",
+    "typeOfResource": "CHILDREN_ROUNDS"
+  },
+  {
+    "name": "Limbo Pablo",
+    "author": "Los Backyardigans",
+    "thematicArea": "FABLES",
+    "typeOfResource": "CHILDREN_ROUNDS"
+  },
+  {
+    "name": "Come little children",
+    "author": "The witch abracadabra",
+    "thematicArea": "FABLES",
+    "typeOfResource": "CHILDREN_ROUNDS"
+  },
+  {
+    "name": "Pinki dinki doo",
+    "author": "Pinki",
+    "thematicArea": "SERIAL_KILLERS",
+    "typeOfResource": "CHILDREN_ROUNDS"
+  },
+  {
+    "name": "El coleccionista de huesos",
+    "author": "Lincoln Rhyme",
+    "thematicArea": "SERIAL_KILLERS",
+    "typeOfResource": "DVD"
+  },
+  {
+    "name": "El poeta",
+    "author": "Jack McEvoy",
+    "thematicArea": "SERIAL_KILLERS",
+    "typeOfResource": "DVD"
+  },
+  {
+    "name": "Las sirenas cantando",
+    "author": "Jordan Mysteries",
+    "thematicArea": "SERIAL_KILLERS",
+    "typeOfResource": "DVD"
+  }
+  
+]

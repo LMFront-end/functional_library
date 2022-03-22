@@ -5,6 +5,6 @@ public enum TypeOfResource {
     BOOKS,
     MAGAZINES,
     FILES,
-    VIRTUAL_RESOURCE
-
+    DVD,
+    CHILDREN_ROUNDS
 }

@@ -9,7 +9,14 @@ public enum ThematicArea {
     PHILOSOPHY,
     ENGLISH,
     GEOMETRY,
-    PHYSICS,
     CRITICAL_READING,
     TECHNOLOGY,
+    STYLE,
+    FANTASY,
+    ROMANCE,
+    WITCHCRAFT,
+    HORROR,
+    SERIAL_KILLERS,
+    FABLES
+
 }
