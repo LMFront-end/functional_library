@@ -1,6 +1,7 @@
 package com.example.bibliotecafuncional.controller;
 
 import com.example.bibliotecafuncional.application.service.ResourceService;
+import com.example.bibliotecafuncional.domain.collections.Resource;
 import com.example.bibliotecafuncional.domain.dto.ResourceDTO;
 import com.example.bibliotecafuncional.domain.valueObject.Availability;
 import com.example.bibliotecafuncional.domain.valueObject.ThematicArea;
@@ -19,6 +20,13 @@ import java.util.Optional;
 public class ResourceController {
 
     private final ResourceService resourceService;
+
+    // fill Data
+    // localhost:8080/api/resource/fillData
+    @PostMapping("/fillData")
+    public ResponseEntity<List<ResourceDTO>> saveAll(@RequestBody List<ResourceDTO> resources){
+        return new ResponseEntity<>(resourceService.fillData(resources), HttpStatus.OK);
+    }
 
     // list Resource
     // localhost:8080/api/resource/listResource

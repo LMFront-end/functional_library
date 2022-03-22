@@ -12,6 +12,9 @@ public interface ResourceServiceInterface {
 
     // basic CRUD services
 
+    // save all data
+    List<ResourceDTO> fillData(List<ResourceDTO> resourcesDto);
+
     // list Resource
     List<ResourceDTO> listResource();
 

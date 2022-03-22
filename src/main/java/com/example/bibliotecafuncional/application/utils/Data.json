@@ -2,32 +2,32 @@
   {
     "name": "New Decade new style",
     "author": "Vogue",
-    "thematicArea": "MAGAZINES",
-    "typeOfResource": "STYLE"
+    "thematicArea": "STYLE",
+    "typeOfResource": "MAGAZINES"
   },
   {
     "name": "43 Looks",
     "author": "Vogue",
-    "thematicArea": "MAGAZINES",
-    "typeOfResource": "STYLE"
+    "thematicArea": "STYLE",
+    "typeOfResource": "MAGAZINES"
   },
   {
     "name": "The big fashion issue",
     "author": "ELLE",
-    "thematicArea": "MAGAZINES",
-    "typeOfResource": "STYLE"
+    "thematicArea": "STYLE",
+    "typeOfResource": "MAGAZINES"
   },
   {
     "name": "Harry Potter y la piedra Filosofal",
     "author": "J.K Rowling",
-    "thematicArea": "BOOKS",
-    "typeOfResource": "FANTASY"
+    "thematicArea": "FANTASY",
+    "typeOfResource": "BOOKS"
   },
   {
     "name": "Harry Potter y la camara secreta",
     "author": "J.K Rowling",
-    "thematicArea": "BOOKS",
-    "typeOfResource": "FANTASY"
+    "thematicArea": "FANTASY",
+    "typeOfResource": "BOOKS"
   },
   {
     "name": "Cayendo por Rebeca",
@@ -68,8 +68,8 @@
   {
     "name": "El bonono y los diez mandamientos",
     "author": "Frans de Waal",
-    "thematicArea": "BOOKS",
-    "typeOfResource": "SCIENCE"
+    "thematicArea": "SCIENCE",
+    "typeOfResource": "BOOKS"
   },
   {
     "name": "El origen de las especies",
@@ -159,7 +159,7 @@
     "name": "El discurso del método",
     "author": "René descartes",
     "thematicArea": "PHILOSOPHY",
-    "typeOfResource": ""
+    "typeOfResource": "BOOKS"
   },
   {
     "name": "Etica mostrada segun el orden geometrico",
@@ -365,5 +365,5 @@
     "thematicArea": "SERIAL_KILLERS",
     "typeOfResource": "DVD"
   }
-  
+
 ]

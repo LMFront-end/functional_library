@@ -16,6 +16,7 @@ public interface ResourceRepository extends MongoRepository<Resource, String> {
 
     /* OTHER METHODS */
 
+
     // find By availability
     List<Resource> findByAvailability(Availability availability);
 

@@ -26,6 +26,17 @@ public class ResourceService implements ResourceServiceInterface {
     // Mapper
     private final ResourceMapper resourceMapper;
 
+    @Override
+    public List<ResourceDTO> fillData(List<ResourceDTO> resources) {
+
+        return resourceRepository.saveAll(resources.stream()
+                        .map(resourceMapper.mapToNewCollection())
+                        .collect(Collectors.toList()))
+                .stream()
+                .map(resourceMapper.mapToDTO())
+                .collect(Collectors.toList());
+    }
+
     // list Resource
     @Override
     public List<ResourceDTO> listResource() {
