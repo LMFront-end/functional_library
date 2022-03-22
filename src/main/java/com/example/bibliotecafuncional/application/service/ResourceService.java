@@ -50,7 +50,9 @@ public class ResourceService implements ResourceServiceInterface {
     }
 
     @Override
-    public void deleteResource(String id) {}
+    public void deleteResource(String id) {
+        resourceRepository.deleteById(id);
+    }
 
     @Override
     public List<ResourceDTO> findByAvailability(Availability availability) {

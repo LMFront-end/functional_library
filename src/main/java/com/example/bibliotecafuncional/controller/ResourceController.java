@@ -34,4 +34,11 @@ public class ResourceController {
     public ResponseEntity<Optional<ResourceDTO>> findById(@PathVariable String id){
         return new ResponseEntity<>(resourceService.findById(id), HttpStatus.OK);
     }
+
+    // delete Resource
+    @DeleteMapping("/deleteResourceById/{id}")
+    public ResponseEntity<HttpStatus> deleteResource(@PathVariable String id){
+        resourceService.deleteResource(id);
+        return new ResponseEntity<>(HttpStatus.OK);
+    }
 }
