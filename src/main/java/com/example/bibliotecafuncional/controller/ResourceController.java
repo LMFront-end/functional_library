@@ -8,6 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RequiredArgsConstructor
 @RestController
@@ -26,5 +27,11 @@ public class ResourceController {
     @PostMapping("/saveResource")
     public ResponseEntity<ResourceDTO> saveResource(@RequestBody ResourceDTO resourceDTO){
         return new ResponseEntity<>(resourceService.saveResource(resourceDTO), HttpStatus.CREATED);
+    }
+
+    // find by id
+    @GetMapping("/findById/{id}")
+    public ResponseEntity<Optional<ResourceDTO>> findById(@PathVariable String id){
+        return new ResponseEntity<>(resourceService.findById(id), HttpStatus.OK);
     }
 }

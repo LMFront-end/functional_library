@@ -20,13 +20,9 @@ public class Resource {
 
 
     private final String name;
-
     private final String author;
-
     private final Availability availability;
-
     private final LocalDate lastBorrowed;
-
     private final ThematicArea thematicArea;
 
     private final TypeOfResource typeOfResource;
