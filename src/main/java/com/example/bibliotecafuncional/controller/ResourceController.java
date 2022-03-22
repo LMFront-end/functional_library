@@ -3,6 +3,7 @@ package com.example.bibliotecafuncional.controller;
 import com.example.bibliotecafuncional.application.service.ResourceService;
 import com.example.bibliotecafuncional.domain.dto.ResourceDTO;
 import com.example.bibliotecafuncional.domain.valueObject.Availability;
+import com.example.bibliotecafuncional.domain.valueObject.ThematicArea;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -48,4 +49,11 @@ public class ResourceController {
     public ResponseEntity<List<ResourceDTO>> findByAvailability(@RequestParam Availability availability){
         return new ResponseEntity<>(resourceService.findByAvailability(availability), HttpStatus.OK);
     }
+
+    // recommend By ThematicArea
+    @GetMapping("/findByThematicArea")
+    public ResponseEntity<List<ResourceDTO>> recommendThematicArea(@RequestParam ThematicArea thematicArea){
+        return new ResponseEntity<>(resourceService.recommendThematicArea(thematicArea), HttpStatus.OK);
+    }
+    
 }
