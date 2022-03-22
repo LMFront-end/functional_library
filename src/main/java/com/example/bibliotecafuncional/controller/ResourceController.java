@@ -41,6 +41,13 @@ public class ResourceController {
         return new ResponseEntity<>(resourceService.findById(id), HttpStatus.OK);
     }
 
+    // update Resource
+    // localhost:8080/api/resource/updateResorce
+    @PutMapping("/updateResorce")
+    public ResponseEntity<ResourceDTO> updateResource(@RequestBody ResourceDTO resourceDTO ){
+        return new ResponseEntity<>(resourceService.updateResource(resourceDTO), HttpStatus.ACCEPTED);
+    }
+
     // delete Resource
     // localhost:8080/api/resource/deleteResourceById?id={}
     @DeleteMapping("/deleteResourceById")

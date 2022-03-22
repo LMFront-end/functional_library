@@ -50,7 +50,12 @@ public class ResourceService implements ResourceServiceInterface {
     // update Resource
     @Override
     public ResourceDTO updateResource(ResourceDTO resourceDTO) {
-        return null;
+
+        if(resourceRepository.findById(resourceDTO.getId()).isEmpty()){
+            throw new IllegalArgumentException("Sorry, resource doesn't exist!");
+        }
+        return resourceMapper.mapToDTO().apply(resourceRepository.save(resourceMapper.mapToCollection().apply(resourceDTO)));
+
     }
 
     // delete Resource
