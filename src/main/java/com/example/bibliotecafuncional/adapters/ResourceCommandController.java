@@ -1,4 +1,4 @@
-package com.example.bibliotecafuncional.controller;
+package com.example.bibliotecafuncional.adapters;
 
 import com.example.bibliotecafuncional.application.service.ResourceService;
 import com.example.bibliotecafuncional.domain.dto.ResourceDTO;
@@ -15,8 +15,8 @@ import java.util.Optional;
 
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("/api/resource")
-public class ResourceController {
+@RequestMapping("/api/command/resource")
+public class ResourceCommandController {
 
     private final ResourceService resourceService;
 
