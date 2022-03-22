@@ -27,6 +27,10 @@ public interface ResourceServiceInterface {
     // delete Resource
     void deleteResource(String id);
 
+    // delete All Resources
+    void deleteAllResources();
+
+
     // other methods
 
     // find By availability

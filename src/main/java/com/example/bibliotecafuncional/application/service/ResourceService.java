@@ -23,6 +23,7 @@ public class ResourceService implements ResourceServiceInterface {
     // Mapper
     private final ResourceMapper resourceMapper;
 
+    // list Resource
     @Override
     public List<ResourceDTO> listResource() {
         return resourceRepository.findAll()
@@ -31,12 +32,14 @@ public class ResourceService implements ResourceServiceInterface {
                 .collect(Collectors.toList());
     }
 
+    // find by id
     @Override
     public Optional<ResourceDTO> findById(String id) {
         return resourceRepository.findById(id)
                 .map(resourceMapper.mapToDTO());
     }
 
+    // save Resource
     @Override
     public ResourceDTO saveResource(ResourceDTO resourceDTO) {
         return resourceMapper.mapToDTO()
@@ -44,16 +47,25 @@ public class ResourceService implements ResourceServiceInterface {
                         .apply(resourceDTO)));
     }
 
+    // update Resource
     @Override
     public ResourceDTO updateResource(ResourceDTO resourceDTO) {
         return null;
     }
 
+    // delete Resource
     @Override
     public void deleteResource(String id) {
         resourceRepository.deleteById(id);
     }
 
+    // delete All
+    @Override
+    public void deleteAllResources() {
+        resourceRepository.deleteAll();
+    }
+
+    // other methods
     @Override
     public List<ResourceDTO> findByAvailability(Availability availability) {
         return resourceRepository.findByAvailability(availability)
@@ -62,16 +74,19 @@ public class ResourceService implements ResourceServiceInterface {
                 .collect(Collectors.toList());
     }
 
+    // borrow resource
     @Override
     public ResourceDTO borrowResource(String id) {
         return null;
     }
 
+    // return resource
     @Override
     public ResourceDTO returnResource(String id) {
         return null;
     }
 
+    // recommend By ThematicArea
     @Override
     public List<ResourceDTO> recommendThematicArea(ThematicArea thematicArea) {
         return resourceRepository.findAllByThematicAreaOrderByName(thematicArea)
@@ -80,6 +95,7 @@ public class ResourceService implements ResourceServiceInterface {
                 .collect(Collectors.toList());
     }
 
+    // recommend By TypeOfResource
     @Override
     public List<ResourceDTO> recommendTypeOfResource(TypeOfResource typeOfResource) {
         return resourceRepository.findAllByTypeOfResourceOrderByName(typeOfResource)
@@ -89,6 +105,7 @@ public class ResourceService implements ResourceServiceInterface {
 
     }
 
+    // recommend by both (ThematicArea, TypeOfResource)
     @Override
     public List<ResourceDTO> recommendThematicAreaAndTypeOfResource(ThematicArea thematicArea, TypeOfResource typeOfResource) {
         return resourceRepository.findAllByThematicAreaAndTypeOfResourceOrderByName(thematicArea, typeOfResource)
@@ -97,6 +114,7 @@ public class ResourceService implements ResourceServiceInterface {
                 .collect(Collectors.toList());
     }
 
+    // find By Author
     @Override
     public List<ResourceDTO> findByAuthor(String author) {
         return resourceRepository.findAllByAuthorContainingIgnoreCaseOrderByName(author)
@@ -105,6 +123,7 @@ public class ResourceService implements ResourceServiceInterface {
                 .collect(Collectors.toList());
     }
 
+    // find by name
     @Override
     public List<ResourceDTO> findByName(String name) {
         return resourceRepository.findAllByNameContainingIgnoreCaseOrderByName(name)
