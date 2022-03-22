@@ -90,7 +90,7 @@ public class ResourceService implements ResourceServiceInterface {
                 .map(resourceMapper.mapToDTOWhenBorrow())
                 .map(resourceDTO -> resourceRepository.save(resourceMapper.mapToCollection().apply(resourceDTO)))
                 .map(resource -> Message.BORROWED_SUCCESSFULLY)
-                .orElse(Message.RESOURCE_NOT_FOUND_NOT_AVAILABLE.concat(" " + Message.AY_EQUIS));
+                .orElse(Message.RESOURCE_NOT_FOUND_NOT_AVAILABLE);
     }
 
     // return resource
