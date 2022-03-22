@@ -4,15 +4,13 @@ package com.example.bibliotecafuncional.domain.dto;
 import com.example.bibliotecafuncional.domain.valueObject.Availability;
 import com.example.bibliotecafuncional.domain.valueObject.ThematicArea;
 import com.example.bibliotecafuncional.domain.valueObject.TypeOfResource;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.time.LocalDate;
 
-@Getter
+@Data
 @AllArgsConstructor
+@NoArgsConstructor
 public class ResourceDTO {
 
     private String id;

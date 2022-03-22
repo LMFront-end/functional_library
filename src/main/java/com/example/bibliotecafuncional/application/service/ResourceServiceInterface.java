@@ -37,10 +37,10 @@ public interface ResourceServiceInterface {
     List<ResourceDTO> findByAvailability(Availability availability);
 
     // borrow resource
-    ResourceDTO borrowResource(String id);
+    String borrowResource(String id);
 
     // return resource
-    ResourceDTO returnResource(String id);
+    String returnResource(String id);
 
     // recommend By ThematicArea
     List<ResourceDTO> recommendThematicArea(ThematicArea thematicArea);

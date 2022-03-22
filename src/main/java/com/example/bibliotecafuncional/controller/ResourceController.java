@@ -71,6 +71,13 @@ public class ResourceController {
         return new ResponseEntity<>(resourceService.findByAvailability(availability), HttpStatus.OK);
     }
 
+    // borrow resource
+    // localhost:8080/api/resource/borrowResource?borrow={}
+    @PutMapping("/borrowResource")
+    public ResponseEntity<String> borrowResource(@RequestParam(name="borrow") String id){
+        return new ResponseEntity<>(resourceService.borrowResource(id), HttpStatus.ACCEPTED );
+    }
+
     // recommend By ThematicArea
     // localhost:8080/api/resource/findByThematicArea?thema={}
     @GetMapping("/findByThematicArea")

@@ -8,6 +8,7 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Optional;
 
 @Repository
 public interface ResourceRepository extends MongoRepository<Resource, String> {
@@ -17,6 +18,8 @@ public interface ResourceRepository extends MongoRepository<Resource, String> {
 
     // find By availability
     List<Resource> findByAvailability(Availability availability);
+
+    Optional<Resource> findByIdAndAvailability(String id, Availability availability);
 
     // recommend By ThematicArea
     List<Resource> findAllByThematicAreaOrderByName(ThematicArea thematicArea);

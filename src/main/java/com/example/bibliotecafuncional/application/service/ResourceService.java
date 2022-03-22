@@ -1,6 +1,8 @@
 package com.example.bibliotecafuncional.application.service;
 
 import com.example.bibliotecafuncional.application.mappers.ResourceMapper;
+import com.example.bibliotecafuncional.application.utils.Message;
+import com.example.bibliotecafuncional.domain.collections.Resource;
 import com.example.bibliotecafuncional.domain.dto.ResourceDTO;
 import com.example.bibliotecafuncional.domain.repository.ResourceRepository;
 import com.example.bibliotecafuncional.domain.valueObject.Availability;
@@ -9,6 +11,7 @@ import com.example.bibliotecafuncional.domain.valueObject.TypeOfResource;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -52,7 +55,7 @@ public class ResourceService implements ResourceServiceInterface {
     public ResourceDTO updateResource(ResourceDTO resourceDTO) {
 
         if(resourceRepository.findById(resourceDTO.getId()).isEmpty()){
-            throw new IllegalArgumentException("Sorry, resource doesn't exist!");
+            throw new IllegalArgumentException(Message.RESOURCE_NOT_FOUND);
         }
         return resourceMapper.mapToDTO().apply(resourceRepository.save(resourceMapper.mapToCollection().apply(resourceDTO)));
 
@@ -81,13 +84,18 @@ public class ResourceService implements ResourceServiceInterface {
 
     // borrow resource
     @Override
-    public ResourceDTO borrowResource(String id) {
-        return null;
+    public String borrowResource(String id) {
+
+        return resourceRepository.findByIdAndAvailability(id, Availability.AVAILABLE)
+                .map(resourceMapper.mapToDTOWhenBorrow())
+                .map(resourceDTO -> resourceRepository.save(resourceMapper.mapToCollection().apply(resourceDTO)))
+                .map(resource -> Message.BORROWED_SUCCESSFULLY)
+                .orElse(Message.RESOURCE_NOT_FOUND_NOT_AVAILABLE.concat(" " + Message.AY_EQUIS));
     }
 
     // return resource
     @Override
-    public ResourceDTO returnResource(String id) {
+    public String returnResource(String id) {
         return null;
     }
 
